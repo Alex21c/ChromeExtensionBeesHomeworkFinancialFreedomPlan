@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This extension will help you to bookmark yours youtube videos by saving video timeline intervals and allows you to jump to specific timeline interval for that particular video, helpful for resuming video you added to watch later or making important notes for the lectures you're watching or bookmarking the begining of yours favourite songs!">
+    <meta name="keywords" content="Youtube Videos Bookmarker, Google Chrome Extension, Geekster Module4 Geekathon Project, JavaScript, MERN Stack Developer">
+    <meta name="author" content="Abhishek kumar">            
+    <title>YoutubeVideosBookmarker-GoogleChromeExtension-GeeksterModule4GeekathonProject</title>      
+    <link rel="stylesheet" href="CSS/dist/tailwindIndex.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Assests/fontAwesomeProIcons/fontAwesomeIcons.css">   
+
+  </head>
+  <body class="bg-slate-500 flex flex-col items-center gap-2 min-w-[20rem]">
+    <header class="bg-slate-700 pb-5 pt-3 w-full  z-40 flex flex-col items-center">  
+      <div>
+        <img src="Assests/Favicon/favicon-128.png" alt="Extension Icon">
+      </div>
+      <h1 id="topHeading" class="flex flex-col gap-[0rem] text-center text-zinc-50">
+        <span class="assignmentTitle font-semibold text-xl" style="font-variant:small-caps">Youtube Videos Bookmarker</span>
+        <a target="_blank" href="https://www.geekster.in/full-stack-web-development-program" class="geeksterPromo text-[.9rem]">
+          (<span class="underline">Geekster MERN Stack Module #4</span>)
+        </a>
+      </h1>
+    </header>
+    <main class="min-h-[5rem]">
+      <ul id="ulInfoMsg" class="text-zinc-50 text-[1rem]">
+        <li class="flex gap-[.5rem] text-[#ffd43b] font-semibold text-[1.2rem] items-center justify-center p-[1rem]">
+          <i class="fa-sharp fa-solid fa-circle-info text-[3rem]"></i>
+          <span id="spanInsideInfoMsg">No Bookmarks to Show!</span>
+        </li>
+      </ul>   
+      <ul id="ulBookmarks" class="text-[#ffd43b] text-[1rem]  flex flex-col gap-[.5rem] ">
+        <!-- Will be handled by View -->
+      </ul>   
+    </main>
+
+    
+    <footer class="flex flex-col gap-[1rem] bg-slate-700  w-full pt-5 pb-5 items-center"> 
+    
+      <a target="_blank" href="instructionsHowToUse.html" class="text-zinc-50 text-[.9rem] cursor-pointer">
+        <span class="fa-sharp fa-solid fa-circle-info"></span>
+        <span class="underline">Instructions&mdash;How To Use this Extension!</span>
+      </a>
+
+
+      <table class="flex flex-col text-[1rem] text-zinc-50 ">
+        <tr class="flex gap-[1rem] items-center">
+          <td class="text-[1rem]" style="font-variant:small-caps">Mentor:</td>
+          <td>Trisha Das</td>
+        </tr>        
+        <tr class="flex gap-[1rem] items-center">
+          <td class="text-[1rem]" style="font-variant:small-caps">Developer:</td>
+          <td>Abhishek Kumar</td>
+        </tr>
+        <tr class="flex gap-[1rem]">
+          <td class="text-[1rem]" style="font-variant:small-caps">Batch:</td>
+          <td>FS-14 (MERN Stack)</td>
+        </tr>
+        <tr class="flex gap-[1rem] items-center justify-center  ">
+          <td >
+            <a href="https://www.linkedin.com/in/alex21c/" target="_blank"  class=" text-[2rem]" >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </td>          
+          <td>
+            <a href="https://github.com/Alex21c" target="_blank"  class=" text-[2rem]" >
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </td>          
+        </tr>
+
+
+      </table>
+    </footer>
+    
+    <script type="module"  src="/MVC/View.js"></script>
+
+    
+    <!-- <script type="module" src="MVC/Controller.js"></script> -->
+    
+  </body>
+</html>

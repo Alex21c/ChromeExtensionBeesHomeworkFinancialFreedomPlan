@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "Bookmark YouTube Videos",
+  "description": "This extension will help you to bookmark yours youtube videos by saving video timeline intervals and allows you to jump to specific timeline interval for that particular video, helpful for resuming video you added to watch later or making important notes for the lectures you're watching or bookmarking the begining of yours favourite songs!",
+  "version": "1.0.0",
+  "permissions": ["storage", "tabs", "scripting", "activeTab"],
+  "host_permissions": ["https://*.youtube.com/*"],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "Assests/Favicon/favicon.png",
+    "default_title": "Bookmark YouTube Videos"
+
+  },
+  "background": {
+    "service_worker": "MVC/serviceWorker.js"
+  },  
+  "icons": {
+    "16":  "Assests/Favicon/favicon-16.png",
+    "32":  "Assests/Favicon/favicon-32.png",
+    "64":  "Assests/Favicon/favicon-64.png",
+    "128":  "Assests/Favicon/favicon-128.png",
+    "256":  "Assests/Favicon/favicon-256.png"
+  },
+  
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "instructionsHowToUse.html",
+        "MVC/Model.js",
+        "MVC/Controller.js",
+        "MVC/view.js",
+        "Assests/Favicon/favicon-16.png",
+        "Assests/Favicon/favicon-32.png",
+        "Assests/Favicon/favicon-64.png",
+        "Assests/Favicon/favicon-128.png",
+        "Assests/Favicon/favicon-256.png"        
+      ],
+      "matches": ["https://*.youtube.com/*"]
+    }
+  ]
+}
