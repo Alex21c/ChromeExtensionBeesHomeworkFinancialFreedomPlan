@@ -1,14 +1,14 @@
 {
   "manifest_version": 3,
-  "name": "Bookmark YouTube Videos",
-  "description": "This extension will help you to bookmark yours youtube videos by saving video timeline intervals and allows you to jump to specific timeline interval for that particular video, helpful for resuming video you added to watch later or making important notes for the lectures you're watching or bookmarking the begining of yours favourite songs!",
+  "name": "Bees Homework Financial Freedom Plan",
+  "description": "Helping me to do my homework of putting GTT orders on Angelone for the Bees by letting access NSE latest closing price data! (As NSE earlier blocked for for opening 6 tabs in a second using bookmarks and blocked my IP for 10 minutes to access the there website to get quotes, so i made this extension to automatically opened the tabs after specified intervals to fetch closing price of NiftyBees BankBees Mid150Bees JuniorBees GoldBees SilverBees, and create a GTT order on Angel One according to my Financial Freedom Plan!",
   "version": "1.0.0",
   "permissions": ["storage", "tabs", "scripting", "activeTab"],
-  "host_permissions": ["https://*.youtube.com/*"],
+  "host_permissions": ["<all_urls>"],
   "action": {
     "default_popup": "index.html",
-    "default_icon": "Assests/Favicon/favicon.png",
-    "default_title": "Bookmark YouTube Videos"
+    "default_icon": "Assests/Favicon/favicon-256.png",
+    "default_title": "Bees Homework Financial Freedom Plan"
 
   },
   "background": {
@@ -29,13 +29,10 @@
         "MVC/Model.js",
         "MVC/Controller.js",
         "MVC/view.js",
-        "Assests/Favicon/favicon-16.png",
-        "Assests/Favicon/favicon-32.png",
-        "Assests/Favicon/favicon-64.png",
-        "Assests/Favicon/favicon-128.png",
-        "Assests/Favicon/favicon-256.png"        
+        "Assests/Favicon/passiveRentalIncome"
+    
       ],
-      "matches": ["https://*.youtube.com/*"]
+      "matches": ["<all_urls>"]
     }
   ]
 }

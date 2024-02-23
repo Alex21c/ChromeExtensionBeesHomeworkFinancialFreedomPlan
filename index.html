@@ -3,10 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This extension will help you to bookmark yours youtube videos by saving video timeline intervals and allows you to jump to specific timeline interval for that particular video, helpful for resuming video you added to watch later or making important notes for the lectures you're watching or bookmarking the begining of yours favourite songs!">
-    <meta name="keywords" content="Youtube Videos Bookmarker, Google Chrome Extension, Geekster Module4 Geekathon Project, JavaScript, MERN Stack Developer">
+    <meta name="description" content="Helping me to do my homework of putting GTT orders on Angelone for the Bees by letting access NSE latest closing price data! As NSE earlier blocked for for opening 6 tabs in a second using bookmarks and blocked my IP for 10 minutes to access the there website to get quotes, so i made this extension to automatically opened the tabs after specified intervals to fetch closing price of NiftyBees BankBees Mid150Bees JuniorBees GoldBees SilverBees, and create a GTT order on Angel One according to my Financial Freedom Plan!">
     <meta name="author" content="Abhishek kumar">            
-    <title>YoutubeVideosBookmarker-GoogleChromeExtension-GeeksterModule4GeekathonProject</title>      
+    <title>Bees Homework Financial Freedom Plan</title>      
     <link rel="stylesheet" href="CSS/dist/tailwindIndex.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,41 +13,37 @@
     <link rel="stylesheet" href="Assests/fontAwesomeProIcons/fontAwesomeIcons.css">   
 
   </head>
-  <body class="bg-slate-500 flex flex-col items-center gap-2 min-w-[20rem]">
+  <body class="bg-slate-500 flex flex-col items-center gap-2 min-w-[20rem]" >
     <header class="bg-slate-700 pb-5 pt-3 w-full  z-40 flex flex-col items-center">  
       <div>
-        <img src="Assests/Favicon/favicon-128.png" alt="Extension Icon">
+        <img src="Assests/Favicon/favicon-128.png" alt="Favicon">        
       </div>
       <h1 id="topHeading" class="flex flex-col gap-[0rem] text-center text-zinc-50">
-        <span class="assignmentTitle font-semibold text-xl" style="font-variant:small-caps">Youtube Videos Bookmarker</span>
-        <a target="_blank" href="https://www.geekster.in/full-stack-web-development-program" class="geeksterPromo text-[.9rem]">
-          (<span class="underline">Geekster MERN Stack Module #4</span>)
-        </a>
+        <span class="assignmentTitle font-semibold text-xl" style="font-variant:small-caps">Bees Homework Financial Freedom Plan</span>        
       </h1>
     </header>
     <main class="min-h-[5rem]">
-      <ul id="ulInfoMsg" class="text-zinc-50 text-[1rem]">
-        <li class="flex gap-[.5rem] text-[#ffd43b] font-semibold text-[1.2rem] items-center justify-center p-[1rem]">
-          <i class="fa-sharp fa-solid fa-circle-info text-[3rem]"></i>
-          <span id="spanInsideInfoMsg">No Bookmarks to Show!</span>
-        </li>
+      <ul id="ulInfoMsg" class="text-[#ffd43b] text-[1rem]  flex flex-col gap-[.5rem] ">
       </ul>   
-      <ul id="ulBookmarks" class="text-[#ffd43b] text-[1rem]  flex flex-col gap-[.5rem] ">
+      
+      <!-- <ul id="ulBookmarks" class="text-[#ffd43b] text-[1rem]  flex flex-col gap-[.5rem] "> -->
         <!-- Will be handled by View -->
-      </ul>   
+      <!-- </ul>    -->
     </main>
 
     
     <footer class="flex flex-col gap-[1rem] bg-slate-700  w-full pt-5 pb-5 items-center"> 
-    
-      <a target="_blank" href="instructionsHowToUse.html" class="text-zinc-50 text-[.9rem] cursor-pointer">
+      <div class="w-[90%] h-[10rem] bg-green-300 rounded-md overflow-hidden">
+        <img src="Assests/financialFreedomVisionBoard.png" alt="Extension Icon" class="object-cover">
+      </div>
+      <!-- <a target="_blank" href="instructionsHowToUse.html" class="text-zinc-50 text-[.9rem] cursor-pointer">
         <span class="fa-sharp fa-solid fa-circle-info"></span>
         <span class="underline">Instructions&mdash;How To Use this Extension!</span>
-      </a>
+      </a> -->
 
-
-      <table class="flex flex-col text-[1rem] text-zinc-50 ">
-        <tr class="flex gap-[1rem] items-center">
+      
+      <!-- <table class="flex flex-col text-[1rem] text-zinc-50 "> -->
+        <!-- <tr class="flex gap-[1rem] items-center">
           <td class="text-[1rem]" style="font-variant:small-caps">Mentor:</td>
           <td>Trisha Das</td>
         </tr>        
@@ -59,8 +54,8 @@
         <tr class="flex gap-[1rem]">
           <td class="text-[1rem]" style="font-variant:small-caps">Batch:</td>
           <td>FS-14 (MERN Stack)</td>
-        </tr>
-        <tr class="flex gap-[1rem] items-center justify-center  ">
+        </tr> -->
+        <!-- <tr class="flex gap-[1rem] items-center justify-center  ">
           <td >
             <a href="https://www.linkedin.com/in/alex21c/" target="_blank"  class=" text-[2rem]" >
               <i class="fa-brands fa-linkedin"></i>
@@ -71,10 +66,10 @@
               <i class="fa-brands fa-github"></i>
             </a>
           </td>          
-        </tr>
+        </tr> -->
 
 
-      </table>
+      <!-- </table> -->
     </footer>
     
     <script type="module"  src="/MVC/View.js"></script>
