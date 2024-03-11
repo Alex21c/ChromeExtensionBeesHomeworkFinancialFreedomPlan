@@ -16,7 +16,12 @@ channel.onmessage = (msg) => {
 
 
 (async () => {
-  const response = await chrome.runtime.sendMessage({action: "openTabs"});
+  let btnLaunch = document.querySelector('button#btnLaunch');
+  btnLaunch.addEventListener('click', async ()=>{
+    const response = await chrome.runtime.sendMessage({action: "openTabs"});
+
+  })
+  // console.log(btnLaunch);
   // do something with response here, not outside the function
   // console.log(response);
 })();
