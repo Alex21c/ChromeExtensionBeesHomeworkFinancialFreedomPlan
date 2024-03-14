@@ -10,12 +10,12 @@ let urlsToOpen = {
   NSE_TimeoutIntervalDelay : 500,
   MISC_TimeoutIntervalDelay : 200,
   NSE: [
-    "https://www.nseindia.com/get-quotes/equity?symbol=BANKBEES",
+    "https://www.nseindia.com/get-quotes/equity?symbol=SILVERBEES",
     "https://www.nseindia.com/get-quotes/equity?symbol=NIFTYBEES",
-    "https://www.nseindia.com/get-quotes/equity?symbol=JUNIORBEES",
     "https://www.nseindia.com/get-quotes/equity?symbol=MID150BEES",
+    "https://www.nseindia.com/get-quotes/equity?symbol=JUNIORBEES",
     "https://www.nseindia.com/get-quotes/equity?symbol=GOLDBEES",
-    "https://www.nseindia.com/get-quotes/equity?symbol=SILVERBEES"
+    "https://www.nseindia.com/get-quotes/equity?symbol=BANKBEES",
   ],
   Misc:[
     {
