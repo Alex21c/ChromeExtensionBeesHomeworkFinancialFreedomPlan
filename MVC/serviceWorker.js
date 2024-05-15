@@ -9,11 +9,11 @@ const channel = new BroadcastChannel('Alex21CBrodcastingChannel');
 let urlsToOpen = {
   NSE_TimeoutIntervalDelay : 500,
   MISC_TimeoutIntervalDelay : 200,
+//"https://www.nseindia.com/get-quotes/equity?symbol=BBETF0432",
+//"https://www.nseindia.com/get-quotes/equity?symbol=JUNIORBEES",
   NSE: [
-    "https://www.nseindia.com/get-quotes/equity?symbol=BANKBEES",
-    "https://www.nseindia.com/get-quotes/equity?symbol=BBETF0432",
+    "https://www.nseindia.com/get-quotes/equity?symbol=BANKBEES",    
     "https://www.nseindia.com/get-quotes/equity?symbol=GOLDBEES",
-    "https://www.nseindia.com/get-quotes/equity?symbol=JUNIORBEES",
     "https://www.nseindia.com/get-quotes/equity?symbol=MID150BEES",
     "https://www.nseindia.com/get-quotes/equity?symbol=NIFTYBEES",
     "https://www.nseindia.com/get-quotes/equity?symbol=SILVERBEES",
